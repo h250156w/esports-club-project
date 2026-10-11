@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIT Esports Club - Events</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HIT Esports & Competitive Gaming Club</h1>
+        <p id="greeting-message">Elevating campus gaming.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.php">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Upcoming Tournaments & LANs</h2>
+            <p>Filter by game to find your next match.</p>
+            
+            <!-- Interactive Event Filter Buttons -->
+            <div class="filter-controls" style="margin-bottom: 20px;">
+                <button onclick="filterEvents('All')">All Events</button>
+                <button onclick="filterEvents('Call of Duty Mobile')">CODM</button>
+                <button onclick="filterEvents('Cuphead')">Cuphead</button>
+                <button onclick="filterEvents('General')">General</button>
+            </div>
+
+            
+            <div id="events-container">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HIT Esports & Competitive Gaming Club. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
